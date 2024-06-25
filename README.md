@@ -102,10 +102,7 @@ Menampilkan Inventory Gudang:
 7. Menampilkan Seluruh Inventory    
         - menampilkan seluruh inventory di gudang
         - memanggil dictionary inventory_all
-8. Menampilkan Inventory Dengan Stock Minimal 
-        - menampilkan inventory sesuai dengan stock minimal yg diinputkan user. akan menampilkan 2 tabel.
-        - 1 tabel menampilkan invenroty dengan stock > inputan user, 1 tabel menampilkan inventory dengan stok <= inputan user
-9. Kembali ke Main Menu             
+8. Kembali ke Main Menu             
         - memanggil fungsi main_menu(posisi)
     
 --------------------------------------------------------------------------------------------------------------------------
