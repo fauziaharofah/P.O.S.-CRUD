@@ -10,15 +10,15 @@ Dalam transaksi penjualan, hanya ada 2 jenis: makanan dan minuman. Terinspirasi 
 
 Berikut merupakan gambaran singkat mengenai source code python yang dibuat:
 --------------------------------------------------------------------------------------------------------------------------
-# kumpulan dictionary inventory bahan baku makanan:
+* kumpulan dictionary inventory bahan baku makanan:
 bread={} , protein={}, cheese={}, sauce={}, veggie={}
 - Dictionary inventory bahan baku makanan nama item, stock, fat, protein, calories, dan harganya 
 
-# dictionary inventory bahan baku minuman:
+* dictionary inventory bahan baku minuman:
 drink={}
 - Dictionary inventory minuman yang berisi nama item, stock, fat, protein, calories, dan harganya 
 
-# inventory_all={} 
+* inventory_all={} 
 - Merupakan dictionary kosong, yg bisa berisi semua dictionary bahan baku (dengan cara mengupdate isinya dengan inventory bahan baku makanan dan minuman)
 
 --------------------------------------------------------------------------------------------------------------------------
