@@ -37,21 +37,21 @@ Berikut merupakan gambaran singkat mengenai source code python yang dibuat:
 
 - Jika posisi='Owner', maka menu yang akan ditampilkan sebagai berikut:
 
-Menu Owner:
-1. Menampilkan Inventory Bahan Baku # akan memanggil fungsi read_program()
-2. Menambah Inventory Bahan Baku    # akan memanggil fungsi create_program()
-3. Menghapus Inventory Bahan Baku   # akan memanggil fungsi delete_program()
-4. Update Inventory Bahan Baku      # akan memanggil fungsi update_program()
-5. Transaksi                        # akan memanggil fungsi transaksi()
-6. Log in dengan posisi lain        # akan memanggil fungsi posisi_jabatan()
-7. Keluar Program                   # akan mengkonfirmasi ingin login kembali (memanggil fungsi posisi_jabatan()) atau exit (memanggil fungsi exit_program()
+    Menu Owner:
+    1. Menampilkan Inventory Bahan Baku # akan memanggil fungsi read_program()
+    2. Menambah Inventory Bahan Baku    # akan memanggil fungsi create_program()
+    3. Menghapus Inventory Bahan Baku   # akan memanggil fungsi delete_program()
+    4. Update Inventory Bahan Baku      # akan memanggil fungsi update_program()
+    5. Transaksi                        # akan memanggil fungsi transaksi()
+    6. Log in dengan posisi lain        # akan memanggil fungsi posisi_jabatan()
+    7. Keluar Program                   # akan mengkonfirmasi ingin login kembali (memanggil fungsi posisi_jabatan()) atau exit (memanggil fungsi exit_program()
 
 - Jika posisi='Kasir', maka menu yg akan ditampilkan sebagai berikut:
 
-Menu Utama Kasir:
-1. Transaksi                        # akan memanggil fungsi transaksi()
-2. Log in dengan posisi lain        # akan memanggil fungsi posisi_jabatan()    
-3. Keluar Program                   # akan mengkonfirmasi ingin login kembali (memanggil fungsi posisi_jabatan()) atau exit (memanggil fungsi exit_program()
+    Menu Utama Kasir:
+    1. Transaksi                        # akan memanggil fungsi transaksi()
+    2. Log in dengan posisi lain        # akan memanggil fungsi posisi_jabatan()    
+    3. Keluar Program                   # akan mengkonfirmasi ingin login kembali (memanggil fungsi posisi_jabatan()) atau exit (memanggil fungsi exit_program()
 
 --------------------------------------------------------------------------------------------------------------------------
 # def lanjut(menu)
@@ -79,33 +79,35 @@ Menu Utama Kasir:
 - posisi = variabel global yang berkaitan dengan fungsi lainnya berisi info jabatan user ('Owner' atau 'Kasir'), yang digunakan untuk menu kembali ke main_menu.
 
 - Menu yang tersedia pada fungsi ini sebagai berikut:
-Menampilkan Inventory Gudang:
-1. Menampilkan Inventory Bread      
-    - menampilkan inventory bread di gudang
-    - memanggil dictionary bread
-2. Menampilkan Inventory Protein    
-    - menampilkan inventory protein di gudang
-    - memanggil dictionary protein
-3. Menampilkan Inventory Cheese     
-    - menampilkan inventory cheese di gudang
-    - memanggil dictionary cheese
-4. Menampilkan Inventory Sauce      
-    - menampilkan inventory sauce di gudang
-    -  memanggil dictionary sauce
-5. Menampilkan Inventory Veggie     
-    - menampilkan inventory veggie di gudang
-    - memanggil dictionary veggie
-6. Menampilkan Inventory Drink      
-    - menampilkan inventory drink di gudang
-    - memanggil dictionary drink
-7. Menampilkan Seluruh Inventory    
-    - menampilkan seluruh inventory di gudang
-    - memanggil dictionary inventory_all
-8. Menampilkan Inventory Dengan Stock Minimal 
-    - menampilkan inventory sesuai dengan stock minimal yg diinputkan user. akan menampilkan 2 tabel. 1 tabel menampilkan invenroty dengan stock > inputan user, 1 tabel menampilkan inventory dengan stok <= inputan user
-9. Kembali ke Main Menu             
-    - memanggil fungsi main_menu(posisi)
 
+    Menampilkan Inventory Gudang:
+    1. Menampilkan Inventory Bread      
+        - menampilkan inventory bread di gudang
+        - memanggil dictionary bread
+    2. Menampilkan Inventory Protein    
+        - menampilkan inventory protein di gudang
+        - memanggil dictionary protein
+    3. Menampilkan Inventory Cheese     
+        - menampilkan inventory cheese di gudang
+        - memanggil dictionary cheese
+    4. Menampilkan Inventory Sauce      
+        - menampilkan inventory sauce di gudang
+        -  memanggil dictionary sauce
+    5. Menampilkan Inventory Veggie     
+        - menampilkan inventory veggie di gudang
+        - memanggil dictionary veggie
+    6. Menampilkan Inventory Drink      
+        - menampilkan inventory drink di gudang
+        - memanggil dictionary drink
+    7. Menampilkan Seluruh Inventory    
+        - menampilkan seluruh inventory di gudang
+        - memanggil dictionary inventory_all
+    8. Menampilkan Inventory Dengan Stock Minimal 
+        - menampilkan inventory sesuai dengan stock minimal yg diinputkan user. akan menampilkan 2 tabel.
+        - 1 tabel menampilkan invenroty dengan stock > inputan user, 1 tabel menampilkan inventory dengan stok <= inputan user
+    9. Kembali ke Main Menu             
+        - memanggil fungsi main_menu(posisi)
+    
 --------------------------------------------------------------------------------------------------------------------------
 # def create_program():
 - Fungsi ini digunakan untuk menambah item di dalam inventory sesuai inputan user.
@@ -122,27 +124,28 @@ Menampilkan Inventory Gudang:
 - posisi = variabel global yang berkaitan dengan fungsi lainnya berisi info jabatan user ('Owner' atau 'Kasir'), yang digunakan untuk menu kembali ke main_menu.
 
 - Menu yang tersedia pada fungsi ini sebagai berikut:
-Menambah Inventory Gudang:
-1. Menambah Inventory Bread     
-    - akan membuat item bread baru berserta informasinya
-    - memanggil dictionary bread
-2. Menambah Inventory Protein   
-    - akan membuat item protein baru berserta informasinya
-    - memanggil dictionary protein
-3. Menambah Inventory Cheese    
-    - akan membuat item cheese baru berserta informasinya
-    - memanggil dictionary cheese
-4. Menambah Inventory Sauce     
-    - akan membuat item sauce baru berserta informasinya
-    - memanggil dictionary sauce
-5. Menambah Inventory Veggie    
-    - akan membuat item veggie baru berserta informasinya
-    - memanggil dictionary veggie
-6. Menambah Inventory Drink     
-    - akan membuat item drink baru berserta informasinya
-    - memanggil dictionary drink
-7. Kembali ke Main Menu         
-    - memanggil fungsi main_menu(posisi)
+
+    Menambah Inventory Gudang:
+    1. Menambah Inventory Bread     
+        - akan membuat item bread baru berserta informasinya
+        - memanggil dictionary bread
+    2. Menambah Inventory Protein   
+        - akan membuat item protein baru berserta informasinya
+        - memanggil dictionary protein
+    3. Menambah Inventory Cheese    
+        - akan membuat item cheese baru berserta informasinya
+        - memanggil dictionary cheese
+    4. Menambah Inventory Sauce     
+        - akan membuat item sauce baru berserta informasinya
+        - memanggil dictionary sauce
+    5. Menambah Inventory Veggie    
+        - akan membuat item veggie baru berserta informasinya
+        - memanggil dictionary veggie
+    6. Menambah Inventory Drink     
+        - akan membuat item drink baru berserta informasinya
+        - memanggil dictionary drink
+    7. Kembali ke Main Menu         
+        - memanggil fungsi main_menu(posisi)
 
 --------------------------------------------------------------------------------------------------------------------------
 # def update_program():
@@ -157,39 +160,38 @@ Menambah Inventory Gudang:
 
 - posisi = variabel global yang berkaitan dengan fungsi lainnya berisi info jabatan user ('Owner' atau 'Kasir'), yang digunakan untuk menu kembali ke main_menu.
 
-
 - Menu yang tersedia pada fungsi ini sebagai berikut:
 User akan diminta untuk memilih menu yang tersedia dilanjutkan memilih update informasi stock atau harga dari item.
 
-Mengupdate Inventory Gudang:
-1. Mengupdate Inventory Bread
-    - akan mengupdate info stock/ harga pada item bread yang ditentukan
-    - memanggil dictionary bread
-2. Mengupdate Inventory Protein
-    - akan mengupdate info stock/ harga pada item protein yang ditentukan
-    - memanggil dictionary protein
-4. Mengupdate Inventory Cheese
-    - akan mengupdate info stock/ harga pada item cheese yang ditentukan
-    - memanggil dictionary cheese
-5. Mengupdate Inventory Sauce
-    - akan mengupdate info stock/ harga pada item sauce yang ditentukan
-    - memanggil dictionary sauce
-6. Mengupdate Inventory Veggie
-    - akan mengupdate info stock/ harga pada item veggie yang ditentukan
-    - memanggil dictionary veggie
-7. Mengupdate Inventory Drink
-    - akan mengupdate info stock/ harga pada item drink yang ditentukan
-    - memanggil dictionary drink
-8. Kembali ke main menu
-    - memanggil fungsi main_menu(posisi)
-
-Pilihan Update: 
-1. Update Stock
-    - akan mengupdate info stock pada item dalam dictionary terpilih
-    - memanggil value 'stock' pada item dalam dictionary terpilih
-2. Update Harga
-    - akan mengupdate info stock pada item dalam dictionary terpilih
-    - memanggil value 'harga' pada item dalam dictionary terpilih
+    Mengupdate Inventory Gudang:
+    1. Mengupdate Inventory Bread
+        - akan mengupdate info stock/ harga pada item bread yang ditentukan
+        - memanggil dictionary bread
+    2. Mengupdate Inventory Protein
+        - akan mengupdate info stock/ harga pada item protein yang ditentukan
+        - memanggil dictionary protein
+    4. Mengupdate Inventory Cheese
+        - akan mengupdate info stock/ harga pada item cheese yang ditentukan
+        - memanggil dictionary cheese
+    5. Mengupdate Inventory Sauce
+        - akan mengupdate info stock/ harga pada item sauce yang ditentukan
+        - memanggil dictionary sauce
+    6. Mengupdate Inventory Veggie
+        - akan mengupdate info stock/ harga pada item veggie yang ditentukan
+        - memanggil dictionary veggie
+    7. Mengupdate Inventory Drink
+        - akan mengupdate info stock/ harga pada item drink yang ditentukan
+        - memanggil dictionary drink
+    8. Kembali ke main menu
+        - memanggil fungsi main_menu(posisi)
+    
+    Pilihan Update: 
+    1. Update Stock
+        - akan mengupdate info stock pada item dalam dictionary terpilih
+        - memanggil value 'stock' pada item dalam dictionary terpilih
+    2. Update Harga
+        - akan mengupdate info stock pada item dalam dictionary terpilih
+        - memanggil value 'harga' pada item dalam dictionary terpilih
 
 --------------------------------------------------------------------------------------------------------------------------
 # def delete_program():
@@ -202,30 +204,31 @@ Pilihan Update:
 - posisi = variabel global yang berkaitan dengan fungsi lainnya berisi info jabatan user ('Owner' atau 'Kasir'), yang digunakan untuk menu kembali ke main_menu.
 
 - Menu yang tersedia pada fungsi ini sebagai berikut:
-Menghapus Inventory Gudang:
-1. Menghapus Inventory Bread
-    - akan menghapus item pada dictionary bread yang ditentukan
-    - memanggil dictionary bread
-2. Menghapus Inventory Protein
-    - akan menghapus item pada dictionary protein yang ditentukan
-    - memanggil dictionary protein
-3. Menghapus Inventory Cheese
-    - akan menghapus item pada dictionary cheese yang ditentukan
-    - memanggil dictionary cheese
-4. Menghapus Inventory Sauce
-    - akan menghapus item pada dictionary sauce yang ditentukan
-    - memanggil dictionary sauce
-5. Menghapus Inventory Veggie
-    - akan menghapus item pada dictionary veggie yang ditentukan
-    - memanggil dictionary veggie
-6. Menghapus Inventory Drink
-    - akan menghapus item pada dictionary drink yang ditentukan
-    - memanggil dictionary drink
-7. Menghapus Seluruh Inventory
-    - akan menghapus seluruh item pada dictionary
-    - memanggil semua dictionary untuk dihapus
-8. Kembali ke main menu
-    - memanggil fungsi main_menu(posisi)
+  
+    Menghapus Inventory Gudang:
+    1. Menghapus Inventory Bread
+        - akan menghapus item pada dictionary bread yang ditentukan
+        - memanggil dictionary bread
+    2. Menghapus Inventory Protein
+        - akan menghapus item pada dictionary protein yang ditentukan
+        - memanggil dictionary protein
+    3. Menghapus Inventory Cheese
+        - akan menghapus item pada dictionary cheese yang ditentukan
+        - memanggil dictionary cheese
+    4. Menghapus Inventory Sauce
+        - akan menghapus item pada dictionary sauce yang ditentukan
+        - memanggil dictionary sauce
+    5. Menghapus Inventory Veggie
+        - akan menghapus item pada dictionary veggie yang ditentukan
+        - memanggil dictionary veggie
+    6. Menghapus Inventory Drink
+        - akan menghapus item pada dictionary drink yang ditentukan
+        - memanggil dictionary drink
+    7. Menghapus Seluruh Inventory
+        - akan menghapus seluruh item pada dictionary
+        - memanggil semua dictionary untuk dihapus
+    8. Kembali ke main menu
+        - memanggil fungsi main_menu(posisi)
 
 --------------------------------------------------------------------------------------------------------------------------
 # def transaksi():
@@ -241,34 +244,33 @@ Menghapus Inventory Gudang:
         4: (sauce, 'Saus'),
         5: (veggie, 'Sayur')}
         #dict yg berisi tuple (nama_dict, dan nama_dict dlm string)
-opsi_opsi akan menjadi variabel global yang akan digunakan pada fungsi transaksi_makanminum (makanan) untuk pemesanan makanan.
+    opsi_opsi akan menjadi variabel global yang akan digunakan pada fungsi transaksi_makanminum (makanan) untuk pemesanan makanan.
 
 - Jika user telah selesai memesan makanan, akan ditawarkan untuk memesan minuman. jika user ingin memesan minuman, maka isi dictionary yang dipakai adalah minuman:
-   opsi_opsi={ 
+    opsi_opsi={ 
         1: (drink, 'Minuman')}
         # dict yg berisi tuple (nama_dict, dan nama_dict dlm string)
-opsi_opsi akan menjadi variabel global yang akan digunakan pada fungsi transaksi_makanminum (minuman) untuk pemesanan minuman.
+    opsi_opsi akan menjadi variabel global yang akan digunakan pada fungsi transaksi_makanminum (minuman) untuk pemesanan minuman.
       
 - Tabel dalam fungsi menghapus inventory ini akan menggunakan fungsi display_inventory (pilih_dict,teks).
 
-- no_urut merupakan variabel yang diinisiasi awal = 1, guna menampilkan nomor urut pada struk list kerangjang    
+- no_urut merupakan variabel yang diinisiasi awal = 1, guna menampilkan nomor urut pada struk list kerangjang.    
     no_urut = 1 
-- total_keseluran merupakan variabel yang diisiasi awal=0, untuk menyimpan total harga pada seluruh pembelian menu custom
+- total_keseluran merupakan variabel yang diisiasi awal=0, untuk menyimpan total harga pada seluruh pembelian menu custom.
     total_keseluruhan = 0 
-- keranjang merupakan list kosong untuk menyompan barang yang akan dibeli dalam satu transaksi
+- keranjang merupakan list kosong untuk menyompan barang yang akan dibeli dalam satu transaksi.
 
 --------------------------------------------------------------------------------------------------------------------------
 # def transaksi_makanminum (makan_minum):
 - Fungsi ini akan melakukan proses pemilihan dan penambahan item yang dipilih oleh user ke dalam keranjang belanja dalam transaksi penjualan.
 - Tabel dalam fungsi ini akan menggunakan fungsi display_inventory (pilih_dict,teks).
-
-- Cara penulisan index item yang dipilih:
-    - Pisahkan dengan koma jika lebih dari 1 pilihan. Contoh:(1,2)
-    - Input angka (index) berlaku kelipatan. Contoh:2,2,2 untuk pemesana 3 item yg sama
-    - Input angka nol (0), untuk melewatkan item
-
 - makan_minum merupakan string yg berisi jenis item yang akan dibeli: 'makanan' atau 'minuman'
 - global keranjang merupakan list yang menyimpan item-item yang akan dibeli dalam satu transaksi
 - global no_urut merupakan integer untuk menyimpan no urut dalam keranjang belanja
 - global total_keseluruhan merupakan float untuk menyimpan total belanja keseluruhan
 - global opsi_opsi  dictionary berisi tuple yang berisi jenis bahan baku yang dapat dibeli
+
+- Cara penulisan index item yang dipilih:
+    - Pisahkan dengan koma jika lebih dari 1 pilihan. Contoh:(1,2)
+    - Input angka (index) berlaku kelipatan. Contoh:2,2,2 untuk pemesana 3 item yg sama
+    - Input angka nol (0), untuk melewatkan item
