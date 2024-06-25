@@ -75,7 +75,7 @@ Menu Utama Kasir:
 - Tabel pada menampilkan inventory ini akan menggunakan fungsi display_inventory (pilih_dict,teks).
 - Jika terdapat inputan index yang tidak sesuai/ inputan yang tidak valid, maka akan keluar pesan peringatan dan memanggil fungsi lanjut('menampilkan inventory').
 - posisi = variabel global yang berkaitan dengan fungsi lainnya berisi info jabatan user ('Owner' atau 'Kasir'), yang digunakan untuk menu kembali ke main_menu.
-- 
+
 - Menu yang tersedia pada fungsi ini sebagai berikut:
 Menampilkan Inventory Gudang:
 1. Menampilkan Inventory Bread      
