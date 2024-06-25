@@ -37,14 +37,14 @@ Berikut merupakan gambaran singkat mengenai source code python yang dibuat:
 
 - Jika posisi='Owner', maka menu yang akan ditampilkan sebagai berikut:
 
-    Menu Owner:
-    1. Menampilkan Inventory Bahan Baku # akan memanggil fungsi read_program()
-    2. Menambah Inventory Bahan Baku    # akan memanggil fungsi create_program()
-    3. Menghapus Inventory Bahan Baku   # akan memanggil fungsi delete_program()
-    4. Update Inventory Bahan Baku      # akan memanggil fungsi update_program()
-    5. Transaksi                        # akan memanggil fungsi transaksi()
-    6. Log in dengan posisi lain        # akan memanggil fungsi posisi_jabatan()
-    7. Keluar Program                   # akan mengkonfirmasi ingin login kembali (memanggil fungsi posisi_jabatan()) atau exit (memanggil fungsi exit_program()
+Menu Owner:
+1. Menampilkan Inventory Bahan Baku # akan memanggil fungsi read_program()
+2. Menambah Inventory Bahan Baku    # akan memanggil fungsi create_program()
+3. Menghapus Inventory Bahan Baku   # akan memanggil fungsi delete_program()
+4. Update Inventory Bahan Baku      # akan memanggil fungsi update_program()
+5. Transaksi                        # akan memanggil fungsi transaksi()
+6. Log in dengan posisi lain        # akan memanggil fungsi posisi_jabatan()
+7. Keluar Program                   # akan mengkonfirmasi ingin login kembali (memanggil fungsi posisi_jabatan()) atau exit (memanggil fungsi exit_program()
 
 - Jika posisi='Kasir', maka menu yg akan ditampilkan sebagai berikut:
 
