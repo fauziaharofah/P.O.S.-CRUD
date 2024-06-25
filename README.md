@@ -48,10 +48,10 @@ Menu Owner:
 
 - Jika posisi='Kasir', maka menu yg akan ditampilkan sebagai berikut:
 
-    Menu Utama Kasir:
-    1. Transaksi                        # akan memanggil fungsi transaksi()
-    2. Log in dengan posisi lain        # akan memanggil fungsi posisi_jabatan()    
-    3. Keluar Program                   # akan mengkonfirmasi ingin login kembali (memanggil fungsi posisi_jabatan()) atau exit (memanggil fungsi exit_program()
+Menu Utama Kasir:
+1. Transaksi                        # akan memanggil fungsi transaksi()
+2. Log in dengan posisi lain        # akan memanggil fungsi posisi_jabatan()    
+3. Keluar Program                   # akan mengkonfirmasi ingin login kembali (memanggil fungsi posisi_jabatan()) atau exit (memanggil fungsi exit_program()
 
 --------------------------------------------------------------------------------------------------------------------------
 # def lanjut(menu)
@@ -80,32 +80,32 @@ Menu Owner:
 
 - Menu yang tersedia pada fungsi ini sebagai berikut:
 
-    Menampilkan Inventory Gudang:
-    1. Menampilkan Inventory Bread      
+Menampilkan Inventory Gudang:
+1. Menampilkan Inventory Bread      
         - menampilkan inventory bread di gudang
         - memanggil dictionary bread
-    2. Menampilkan Inventory Protein    
+2. Menampilkan Inventory Protein    
         - menampilkan inventory protein di gudang
         - memanggil dictionary protein
-    3. Menampilkan Inventory Cheese     
+3. Menampilkan Inventory Cheese     
         - menampilkan inventory cheese di gudang
         - memanggil dictionary cheese
-    4. Menampilkan Inventory Sauce      
+4. Menampilkan Inventory Sauce      
         - menampilkan inventory sauce di gudang
         -  memanggil dictionary sauce
-    5. Menampilkan Inventory Veggie     
+5. Menampilkan Inventory Veggie     
         - menampilkan inventory veggie di gudang
         - memanggil dictionary veggie
-    6. Menampilkan Inventory Drink      
+6. Menampilkan Inventory Drink      
         - menampilkan inventory drink di gudang
         - memanggil dictionary drink
-    7. Menampilkan Seluruh Inventory    
+7. Menampilkan Seluruh Inventory    
         - menampilkan seluruh inventory di gudang
         - memanggil dictionary inventory_all
-    8. Menampilkan Inventory Dengan Stock Minimal 
+8. Menampilkan Inventory Dengan Stock Minimal 
         - menampilkan inventory sesuai dengan stock minimal yg diinputkan user. akan menampilkan 2 tabel.
         - 1 tabel menampilkan invenroty dengan stock > inputan user, 1 tabel menampilkan inventory dengan stok <= inputan user
-    9. Kembali ke Main Menu             
+9. Kembali ke Main Menu             
         - memanggil fungsi main_menu(posisi)
     
 --------------------------------------------------------------------------------------------------------------------------
@@ -125,26 +125,26 @@ Menu Owner:
 
 - Menu yang tersedia pada fungsi ini sebagai berikut:
 
-    Menambah Inventory Gudang:
-    1. Menambah Inventory Bread     
+Menambah Inventory Gudang:
+1. Menambah Inventory Bread     
         - akan membuat item bread baru berserta informasinya
         - memanggil dictionary bread
-    2. Menambah Inventory Protein   
+2. Menambah Inventory Protein   
         - akan membuat item protein baru berserta informasinya
         - memanggil dictionary protein
-    3. Menambah Inventory Cheese    
+3. Menambah Inventory Cheese    
         - akan membuat item cheese baru berserta informasinya
         - memanggil dictionary cheese
-    4. Menambah Inventory Sauce     
+4. Menambah Inventory Sauce     
         - akan membuat item sauce baru berserta informasinya
         - memanggil dictionary sauce
-    5. Menambah Inventory Veggie    
+5. Menambah Inventory Veggie    
         - akan membuat item veggie baru berserta informasinya
         - memanggil dictionary veggie
-    6. Menambah Inventory Drink     
+6. Menambah Inventory Drink     
         - akan membuat item drink baru berserta informasinya
         - memanggil dictionary drink
-    7. Kembali ke Main Menu         
+7. Kembali ke Main Menu         
         - memanggil fungsi main_menu(posisi)
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -163,33 +163,33 @@ Menu Owner:
 - Menu yang tersedia pada fungsi ini sebagai berikut:
 User akan diminta untuk memilih menu yang tersedia dilanjutkan memilih update informasi stock atau harga dari item.
 
-    Mengupdate Inventory Gudang:
-    1. Mengupdate Inventory Bread
+Mengupdate Inventory Gudang:
+1. Mengupdate Inventory Bread
         - akan mengupdate info stock/ harga pada item bread yang ditentukan
         - memanggil dictionary bread
-    2. Mengupdate Inventory Protein
+2. Mengupdate Inventory Protein
         - akan mengupdate info stock/ harga pada item protein yang ditentukan
         - memanggil dictionary protein
-    4. Mengupdate Inventory Cheese
+3. Mengupdate Inventory Cheese
         - akan mengupdate info stock/ harga pada item cheese yang ditentukan
         - memanggil dictionary cheese
-    5. Mengupdate Inventory Sauce
+4. Mengupdate Inventory Sauce
         - akan mengupdate info stock/ harga pada item sauce yang ditentukan
         - memanggil dictionary sauce
-    6. Mengupdate Inventory Veggie
+5. Mengupdate Inventory Veggie
         - akan mengupdate info stock/ harga pada item veggie yang ditentukan
         - memanggil dictionary veggie
-    7. Mengupdate Inventory Drink
+6. Mengupdate Inventory Drink
         - akan mengupdate info stock/ harga pada item drink yang ditentukan
         - memanggil dictionary drink
-    8. Kembali ke main menu
+7. Kembali ke main menu
         - memanggil fungsi main_menu(posisi)
     
-    Pilihan Update: 
-    1. Update Stock
+Pilihan Update: 
+1. Update Stock
         - akan mengupdate info stock pada item dalam dictionary terpilih
         - memanggil value 'stock' pada item dalam dictionary terpilih
-    2. Update Harga
+2. Update Harga
         - akan mengupdate info stock pada item dalam dictionary terpilih
         - memanggil value 'harga' pada item dalam dictionary terpilih
 
@@ -205,29 +205,29 @@ User akan diminta untuk memilih menu yang tersedia dilanjutkan memilih update in
 
 - Menu yang tersedia pada fungsi ini sebagai berikut:
   
-    Menghapus Inventory Gudang:
-    1. Menghapus Inventory Bread
+Menghapus Inventory Gudang:
+1. Menghapus Inventory Bread
         - akan menghapus item pada dictionary bread yang ditentukan
         - memanggil dictionary bread
-    2. Menghapus Inventory Protein
+2. Menghapus Inventory Protein
         - akan menghapus item pada dictionary protein yang ditentukan
         - memanggil dictionary protein
-    3. Menghapus Inventory Cheese
+3. Menghapus Inventory Cheese
         - akan menghapus item pada dictionary cheese yang ditentukan
         - memanggil dictionary cheese
-    4. Menghapus Inventory Sauce
+4. Menghapus Inventory Sauce
         - akan menghapus item pada dictionary sauce yang ditentukan
         - memanggil dictionary sauce
-    5. Menghapus Inventory Veggie
+5. Menghapus Inventory Veggie
         - akan menghapus item pada dictionary veggie yang ditentukan
         - memanggil dictionary veggie
-    6. Menghapus Inventory Drink
+6. Menghapus Inventory Drink
         - akan menghapus item pada dictionary drink yang ditentukan
         - memanggil dictionary drink
-    7. Menghapus Seluruh Inventory
+7. Menghapus Seluruh Inventory
         - akan menghapus seluruh item pada dictionary
         - memanggil semua dictionary untuk dihapus
-    8. Kembali ke main menu
+8. Kembali ke main menu
         - memanggil fungsi main_menu(posisi)
 
 --------------------------------------------------------------------------------------------------------------------------
