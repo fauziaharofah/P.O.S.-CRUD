@@ -36,6 +36,7 @@ Berikut merupakan gambaran singkat mengenai source code python yang dibuat:
 - Posisi = variabel global yang berisi jabatan user ('Owner' atau 'Kasir')
 
 - Jika posisi='Owner', maka menu yang akan ditampilkan sebagai berikut:
+
 Menu Owner:
 1. Menampilkan Inventory Bahan Baku # akan memanggil fungsi read_program()
 2. Menambah Inventory Bahan Baku    # akan memanggil fungsi create_program()
@@ -46,6 +47,7 @@ Menu Owner:
 7. Keluar Program                   # akan mengkonfirmasi ingin login kembali (memanggil fungsi posisi_jabatan()) atau exit (memanggil fungsi exit_program()
 
 - Jika posisi='Kasir', maka menu yg akan ditampilkan sebagai berikut:
+
 Menu Utama Kasir:
 1. Transaksi                        # akan memanggil fungsi transaksi()
 2. Log in dengan posisi lain        # akan memanggil fungsi posisi_jabatan()    
